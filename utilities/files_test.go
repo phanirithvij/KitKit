@@ -14,7 +14,7 @@ func TestCopyFile(t *testing.T) {
 	}
 	defer os.RemoveAll(tempDir)
 
-	sourcePath := path.Join("testdata", "kitkit", "binaries", "testBinary-kktag:latest")
+	sourcePath := path.Join("testdata", "kitkit", "binaries", "testBinary-kktag#latest")
 	targetPath := path.Join(tempDir, "testbinary")
 	err = CopyFile(sourcePath, targetPath)
 	if err != nil {

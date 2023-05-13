@@ -69,7 +69,7 @@ func (c *AddCommand) Run(args []string) int {
 	}
 
 	// create the tagged name and path
-	taggedName := name + "-kktag:" + tag
+	taggedName := name + "-kktag#" + tag
 	taggedPath := path.Join(config.BinariesPath(), taggedName)
 
 	// copy it to the binaries folder under the tagged name

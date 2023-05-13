@@ -21,7 +21,7 @@ func GetBinaries() ([]os.FileInfo, error) {
 
 // Splits a tracked name into it's respective name and tag
 func SplitTrackedName(trackedName string) (string, string) {
-	parts := strings.Split(trackedName, "-kktag:")
+	parts := strings.Split(trackedName, "-kktag#")
 	return parts[0], parts[1]
 }
 

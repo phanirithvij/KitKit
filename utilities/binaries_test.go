@@ -19,8 +19,8 @@ func TestGetBinaries(t *testing.T) {
 		t.Fatalf("failed to get binaries: %s", err)
 	}
 
-	if binaries[0].Name() != "testBinary-kktag:latest" {
-		t.Errorf("incorrect binary name wanted: %s got: %s", "testBinary-kktag:latest", binaries[0].Name())
+	if binaries[0].Name() != "testBinary-kktag#latest" {
+		t.Errorf("incorrect binary name wanted: %s got: %s", "testBinary-kktag#latest", binaries[0].Name())
 	}
 }
 
@@ -31,12 +31,12 @@ func TestSplitTrackedName(t *testing.T) {
 		WantTag  string
 	}{
 		{
-			Have:     "kikit-kktag:latest",
+			Have:     "kikit-kktag#latest",
 			WantName: "kikit",
 			WantTag:  "latest",
 		},
 		{
-			Have:     "kitkit-latest-darwin64-kktag:latest",
+			Have:     "kitkit-latest-darwin64-kktag#latest",
 			WantName: "kitkit-latest-darwin64",
 			WantTag:  "latest",
 		},

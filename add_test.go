@@ -33,7 +33,7 @@ func TestAddCommand_Run(t *testing.T) {
 		t.Fatalf("bad return code: %d\n\n%s", returnCode, ui.ErrorWriter.String())
 	}
 
-	want := "binaries/test-binary-kktag:1.0"
+	want := "binaries/test-binary-kktag#1.0"
 	// check if the file was copied and tagged
 	if _, err := os.Stat(path.Join(testDir, want)); err != nil {
 		t.Fatalf("couldn't find the copied binary file: %s", want)

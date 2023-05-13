@@ -37,7 +37,7 @@ func TestRemoveCommand_Run(t *testing.T) {
 }
 
 func testAddToBinaries(t *testing.T, testDir string) string {
-	binaryPath := path.Join(testDir, "binaries", "testbinary-kktag:latest")
+	binaryPath := path.Join(testDir, "binaries", "testbinary-kktag#latest")
 	err := utilities.CopyFile(path.Join("testdata/testBinary"), binaryPath)
 	if err != nil {
 		t.Fatalf("failed to copy binary: %s", err)
