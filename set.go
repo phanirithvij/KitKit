@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/simplyserenity/kitkit/utilities"
+	"github.com/phanirithvij/kitkit/utilities"
 
-	"github.com/simplyserenity/kitkit/config"
+	"github.com/phanirithvij/kitkit/config"
 
 	"github.com/mitchellh/cli"
 )

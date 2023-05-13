@@ -5,7 +5,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/simplyserenity/kitkit/utilities"
+	"github.com/phanirithvij/kitkit/utilities"
 
 	"github.com/mitchellh/cli"
 )

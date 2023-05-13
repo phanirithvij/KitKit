@@ -6,8 +6,8 @@ import (
 	"path"
 
 	"github.com/mitchellh/cli"
-	"github.com/simplyserenity/kitkit/config"
-	"github.com/simplyserenity/kitkit/utilities"
+	"github.com/phanirithvij/kitkit/config"
+	"github.com/phanirithvij/kitkit/utilities"
 )
 
 // RemoveCommands removes a binary from the list

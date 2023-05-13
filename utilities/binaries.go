@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/simplyserenity/kitkit/config"
+	"github.com/phanirithvij/kitkit/config"
 )
 
 // GetBinaries returns os.Fileinfo for all of the binaries found in KITKIT_HOME/binaries

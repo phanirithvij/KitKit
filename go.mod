@@ -1,4 +1,4 @@
-module github.com/simplyserenity/kitkit
+module github.com/phanirithvij/kitkit
 
 go 1.12
 

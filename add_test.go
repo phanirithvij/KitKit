@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/simplyserenity/kitkit/config"
+	"github.com/phanirithvij/kitkit/config"
 
 	"github.com/mitchellh/cli"
 )
